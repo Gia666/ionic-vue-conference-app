@@ -124,7 +124,7 @@
         icon: 'calendar'
       },
       {
-        title: 'Speakers',
+        title: '客户',
         url: '/tabs/speakers',
         icon: 'contacts'
       },

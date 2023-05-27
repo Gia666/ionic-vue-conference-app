@@ -25,7 +25,7 @@
 
       <ion-tab-button tab="speakers">
         <ion-icon name="contacts" />
-        <ion-label>Speakers</ion-label>
+        <ion-label>客户</ion-label>
       </ion-tab-button>
 
       <ion-tab-button tab="map">

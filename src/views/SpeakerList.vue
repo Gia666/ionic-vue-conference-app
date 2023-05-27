@@ -5,9 +5,37 @@
         <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-        <ion-title>Speakers</ion-title>
+        <ion-title>客户</ion-title>
       </ion-toolbar>
     </ion-header>
+    
+
+    <ion-segment value="all"  scrollable="true" color="primary">
+      <ion-segment-button value="all">
+    <ion-label>全部</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="genjin">
+    <ion-label>跟进</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="qianzai">
+    <ion-label>潜在</ion-label>
+  </ion-segment-button>
+    <ion-segment-button value="qiatan">
+    <ion-label>洽谈</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="qiandan">
+    <ion-label>签单</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="chengjiao">
+    <ion-label>成交</ion-label>
+  </ion-segment-button>
+    <ion-segment-button value="shudan">
+    <ion-label>输单</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="shibai">
+    <ion-label>失败</ion-label>
+  </ion-segment-button>
+    </ion-segment>
 
     <ion-content class="outer-content">
       <ion-list>
@@ -121,3 +149,5 @@ export default class SpeakerList extends Vue {
   }
 }
 </script>
+
+
