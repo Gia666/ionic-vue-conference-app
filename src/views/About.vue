@@ -58,8 +58,8 @@
   })
   export default class About extends Vue {
 
-    presentPopover(event){
-      console.log('click', event)
+    presentPopover(){
+      //console.log('click', event)
     }
   }
 </script>
